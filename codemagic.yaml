@@ -1,0 +1,34 @@
+workflows:
+  n2shoppe-ios-test:
+    name: N2 Shoppe iOS - Simulator Build (Unsigned)
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      xcode: latest
+    scripts:
+      - name: Install XcodeGen
+        script: |
+          brew install xcodegen
+      - name: Generate Xcode project
+        script: |
+          xcodegen generate --spec project.yml
+      - name: Build iOS simulator app without signing
+        script: |
+          xcodebuild \
+            -project N2Shoppe.xcodeproj \
+            -scheme N2Shoppe \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build/DerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+      - name: Package simulator app
+        script: |
+          mkdir -p build/artifacts
+          ditto -c -k --sequesterRsrc --keepParent \
+            build/DerivedData/Build/Products/Debug-iphonesimulator/N2Shoppe.app \
+            build/artifacts/N2Shoppe-Simulator.zip
+    artifacts:
+      - build/artifacts/*.zip
+      - build/DerivedData/Logs/Build/*.xcactivitylog
