@@ -1,0 +1,538 @@
+[
+  {
+    "id": "combo-male-1",
+    "name": "Combo Pack Male 1",
+    "targetGender": "male",
+    "tagline": "1 Jeans + 1 T-Shirt + 1 Gift Coupon",
+    "price": 1699,
+    "mrp": 2999,
+    "image": "/images/combo-male-1.png",
+    "stockQuantity": null,
+    "isAvailable": false,
+    "inclusions": [
+      "1 Jeans",
+      "1 T-Shirt",
+      "1 Gift Coupon"
+    ],
+    "variants": {
+      "tshirt_size": {
+        "label": "T-Shirt size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "tshirt_colour": {
+        "label": "T-Shirt colour",
+        "values": [
+          "Yellow",
+          "Blue",
+          "Black"
+        ]
+      },
+      "jeans_size": {
+        "label": "Jeans size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "jeans_colour": {
+        "label": "Jeans colour",
+        "values": [
+          "Blue",
+          "Black"
+        ]
+      }
+    }
+  },
+  {
+    "id": "combo-female-1",
+    "name": "Combo Pack Female 1",
+    "targetGender": "female",
+    "tagline": "1 Jeans + 1 T-Shirt + 1 Gift Coupon",
+    "price": 1699,
+    "mrp": 2999,
+    "image": "/images/combo-female-1.png",
+    "stockQuantity": null,
+    "isAvailable": false,
+    "inclusions": [
+      "1 Jeans",
+      "1 T-Shirt",
+      "1 Gift Coupon"
+    ],
+    "variants": {
+      "tshirt_size": {
+        "label": "T-Shirt size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "tshirt_colour": {
+        "label": "T-Shirt colour",
+        "values": [
+          "Yellow",
+          "Blue",
+          "Black"
+        ]
+      },
+      "jeans_size": {
+        "label": "Jeans size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "jeans_colour": {
+        "label": "Jeans colour",
+        "values": [
+          "Blue",
+          "Black"
+        ]
+      }
+    }
+  },
+  {
+    "id": "combo-female-2",
+    "name": "Combo Pack Female 2",
+    "targetGender": "female",
+    "tagline": "1 Jeans + 1 T-Shirt + 1 Blazer + 1 Cotton Pant + 1 Gift Coupon",
+    "price": 4799,
+    "mrp": 8999,
+    "image": "/images/combo-female-2.png",
+    "stockQuantity": null,
+    "isAvailable": false,
+    "inclusions": [
+      "1 Jeans",
+      "1 T-Shirt",
+      "1 Blazer",
+      "1 Cotton Pant",
+      "1 Gift Coupon"
+    ],
+    "variants": {
+      "tshirt_size": {
+        "label": "T-Shirt size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "tshirt_colour": {
+        "label": "T-Shirt colour",
+        "values": [
+          "Yellow",
+          "Blue",
+          "Black"
+        ]
+      },
+      "jeans_size": {
+        "label": "Jeans size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "jeans_colour": {
+        "label": "Jeans colour",
+        "values": [
+          "Blue",
+          "Black"
+        ]
+      },
+      "blazer_size": {
+        "label": "Blazer size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "blazer_colour": {
+        "label": "Blazer colour",
+        "values": [
+          "Mustard"
+        ]
+      },
+      "trouser_size": {
+        "label": "Cotton pant size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "trouser_colour": {
+        "label": "Cotton pant colour",
+        "values": [
+          "Pink",
+          "Black"
+        ]
+      }
+    }
+  },
+  {
+    "id": "combo-male-2",
+    "name": "Combo Pack Male 2",
+    "targetGender": "male",
+    "tagline": "1 Jeans + 1 T-Shirt + 1 Blazer + 1 Cotton Pant + 1 Gift Coupon",
+    "price": 4799,
+    "mrp": 8999,
+    "image": "/images/combo-male-2.png",
+    "stockQuantity": null,
+    "isAvailable": false,
+    "inclusions": [
+      "1 Jeans",
+      "1 T-Shirt",
+      "1 Blazer",
+      "1 Cotton Pant",
+      "1 Gift Coupon"
+    ],
+    "variants": {
+      "tshirt_size": {
+        "label": "T-Shirt size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "tshirt_colour": {
+        "label": "T-Shirt colour",
+        "values": [
+          "Yellow",
+          "Blue",
+          "Black"
+        ]
+      },
+      "jeans_size": {
+        "label": "Jeans size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "jeans_colour": {
+        "label": "Jeans colour",
+        "values": [
+          "Blue",
+          "Black"
+        ]
+      },
+      "blazer_size": {
+        "label": "Blazer size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "blazer_colour": {
+        "label": "Blazer colour",
+        "values": [
+          "Camel Brown"
+        ]
+      },
+      "trouser_size": {
+        "label": "Cotton pant size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "trouser_colour": {
+        "label": "Cotton pant colour",
+        "values": [
+          "Black",
+          "White"
+        ]
+      }
+    }
+  },
+  {
+    "id": "combo-male-3",
+    "name": "Combo Pack Male 3",
+    "targetGender": "male",
+    "tagline": "1 Jeans + 1 T-Shirt + 1 Blazer + 1 Cotton Pant + 1 Shirt + 1 Digital Watch + 1 Lunch Coupon + 1 Gift Coupon",
+    "price": 10999,
+    "mrp": 19999,
+    "image": "/images/combo-male-3.png",
+    "stockQuantity": null,
+    "isAvailable": false,
+    "inclusions": [
+      "1 Jeans",
+      "1 T-Shirt",
+      "1 Blazer",
+      "1 Cotton Pant",
+      "1 Shirt",
+      "1 Digital Watch",
+      "1 Lunch Coupon",
+      "1 Gift Coupon"
+    ],
+    "variants": {
+      "tshirt_size": {
+        "label": "T-Shirt size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "tshirt_colour": {
+        "label": "T-Shirt colour",
+        "values": [
+          "Yellow",
+          "Blue",
+          "Black"
+        ]
+      },
+      "jeans_size": {
+        "label": "Jeans size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "jeans_colour": {
+        "label": "Jeans colour",
+        "values": [
+          "Blue",
+          "Black"
+        ]
+      },
+      "blazer_size": {
+        "label": "Blazer size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "blazer_colour": {
+        "label": "Blazer colour",
+        "values": [
+          "Camel Brown"
+        ]
+      },
+      "trouser_size": {
+        "label": "Cotton pant size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "trouser_colour": {
+        "label": "Cotton pant colour",
+        "values": [
+          "Black",
+          "White"
+        ]
+      },
+      "shirt_size": {
+        "label": "Shirt size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "shirt_colour": {
+        "label": "Shirt colour",
+        "values": [
+          "Light Blue"
+        ]
+      }
+    }
+  },
+  {
+    "id": "combo-female-3",
+    "name": "Combo Pack Female 3",
+    "targetGender": "female",
+    "tagline": "1 Jeans + 1 T-Shirt + 1 Blazer + 1 Cotton Pant + 1 Shirt + 1 Digital Watch + 1 Lunch Coupon + 1 Gift Coupon",
+    "price": 10999,
+    "mrp": 19999,
+    "image": "/images/combo-female-3.png",
+    "stockQuantity": null,
+    "isAvailable": false,
+    "inclusions": [
+      "1 Jeans",
+      "1 T-Shirt",
+      "1 Blazer",
+      "1 Cotton Pant",
+      "1 Shirt",
+      "1 Digital Watch",
+      "1 Lunch Coupon",
+      "1 Gift Coupon"
+    ],
+    "variants": {
+      "tshirt_size": {
+        "label": "T-Shirt size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "tshirt_colour": {
+        "label": "T-Shirt colour",
+        "values": [
+          "Yellow",
+          "Blue",
+          "Black"
+        ]
+      },
+      "jeans_size": {
+        "label": "Jeans size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "jeans_colour": {
+        "label": "Jeans colour",
+        "values": [
+          "Blue",
+          "Black"
+        ]
+      },
+      "blazer_size": {
+        "label": "Blazer size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "blazer_colour": {
+        "label": "Blazer colour",
+        "values": [
+          "Mustard"
+        ]
+      },
+      "trouser_size": {
+        "label": "Cotton pant size (inches)",
+        "values": [
+          "28",
+          "30",
+          "32",
+          "34",
+          "36",
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      "trouser_colour": {
+        "label": "Cotton pant colour",
+        "values": [
+          "Pink",
+          "Black"
+        ]
+      },
+      "shirt_size": {
+        "label": "Shirt size",
+        "values": [
+          "S",
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      },
+      "shirt_colour": {
+        "label": "Shirt colour",
+        "values": [
+          "Light Blue"
+        ]
+      }
+    }
+  }
+]
